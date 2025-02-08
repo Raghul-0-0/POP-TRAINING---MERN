@@ -1,9 +1,23 @@
 .box-model {
-  padding: 10px;
+  padding: 45px;
   background-color: palegreen;
   border: solid , 5px, pink;
+  /* margin : 5px; */
 }
 
+.fixed-position{
+    position: fixed;
+    background-color: aqua;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: -10px;
+    padding: 5px;
+    width: 1490px;
 
+}
+
+.relative-position{
+    position: relative;
+}
 
 

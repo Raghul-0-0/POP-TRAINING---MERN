@@ -1,0 +1,25 @@
+/* class selector */
+.external{
+    background-color: blue;
+    height: 600px;
+    width: 400px;
+}
+
+/* id selector */
+#idselector{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 100px;
+}
+
+/* element selector */
+ol{
+    margin-left: 150px;
+    margin-top: 50px;
+    list-style-type: circle;
+}
+
+
+/* universal selctor */
+*{
+    background-color: darkgray;
+}

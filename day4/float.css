@@ -1,11 +1,12 @@
-.float-left{
-    float: left;
+.left-float {
+    float : left;
+    margin:20px;
+    background-color: rgb(10, 10, 10, 0.3);
+}
+
+.right-float {
+    float : right;
     margin: 20px;
-}
-.float-right{
-    float: right;
-    margin: 10px;
-}
-img{
-    
+    background-color: black;
+
 }

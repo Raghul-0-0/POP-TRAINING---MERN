@@ -1,0 +1,83 @@
+/* li{
+    display: inline;
+    padding-right: 30px;
+    padding-left: 30px;
+} */
+
+header{
+    background-color: chocolate;
+}
+
+nav{
+    font-size:x-large;
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+    justify-content:space-evenly;     
+    padding: 20px;
+    
+}
+
+/* to remove white space at the top and sides */
+
+body{
+    margin: 0%;
+}
+.link{
+    text-decoration: none;
+    color: wheat;    padding: 2px;
+
+}
+.link:hover {
+    color: chocolate;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+h1{
+    display:inline;
+    color: whitesmoke;
+}
+
+@media screen and (max-width:500px) {
+    /* li{
+    display: inline;
+    padding-right: 30px;          
+    padding-left: 30px;
+} */
+
+header{
+    background-color: chocolate;
+}
+
+nav{
+    font-size:x-large;
+    display: flex;
+    flex-direction:column;
+    list-style-type: none;
+    justify-content:space-evenly;     
+    padding: 20px;
+    
+}
+
+/* to remove white space at the top and sides */
+
+body{
+    margin: 0%;
+}
+.link{
+    text-decoration: none;
+    color: wheat;    padding: 2px;
+
+}
+.link:hover {
+    color: chocolate;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+h1{
+    display:inline;
+    color: whitesmoke;
+}
+}

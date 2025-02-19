@@ -4,6 +4,7 @@ import Gallery from './components/FunctionalComponent/Gallery';
 import Contact from './components/FunctionalComponent/Contact';
 import About from './components/FunctionalComponent/About';
 import Navbar from './components/FunctionalComponent/Navbar';
+import UseEffect from './components/FunctionalComponent/Hooks/UseEffect';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -11,17 +12,18 @@ function App() {
   return (
     <main>
       <BrowserRouter>
-      
+      <Navbar /> 
+
         <Routes>
           <Route path='/' element={      <Home properties = "Hello" sjit=" SJIT"/>}/>
+          <Route path='/about' element={<About /> } />
+          <Route path='/Signup' element={<Signup /> } />
+          <Route path='/Gallery' element={<Gallery /> } />
+          <Route path='/Contact' element={<Contact /> } />
+          <Route path='/UseEffect' element={<UseEffect /> } />
         </Routes>
       </BrowserRouter>
-      <Navbar /> <hr />
-      <Home properties = "Hello" sjit=" SJIT"/> <hr />
-      <About /> <hr />
-      <Signup /> <hr />
-      <Gallery /> <hr />
-      <Contact /> <hr />
+
     </main>
   );
 }

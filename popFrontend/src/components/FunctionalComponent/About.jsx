@@ -16,7 +16,7 @@ function About() {
             <button onClick={handleDecrement}>-</button>
             <h3>State Variable Value : {num}</h3>
             <button onClick={()=>setNum(num+1)}>+</button><br></br>
-            {/* <button onClick={()=>setNum(0)}>RESET</button> */}
+            <button onClick={()=>setNum(0)}>RESET</button>
         </div>
     );
 }

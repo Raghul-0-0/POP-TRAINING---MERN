@@ -5,6 +5,7 @@ import Contact from "./components/FunctionalComponent/Contact";
 import About from "./components/FunctionalComponent/About";
 import Navbar from "./components/FunctionalComponent/Navbar";
 import UseEffect from "./components/FunctionalComponent/Hooks/UseEffect";
+import HoC from "./components/FunctionalComponent/HoC/HoC";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/UseEffect" element={<UseEffect />} />
+          <Route path="/HoC" element={<HoC />} />
         </Routes>
       </BrowserRouter>
     </main>

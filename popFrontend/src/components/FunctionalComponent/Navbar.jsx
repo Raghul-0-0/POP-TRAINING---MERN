@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../css/Navbar.css";
 const Navbar = () => {
-  var [dropdown, showDropdown] = useState(false);
+  var [dropdown, showDropdown] = useState(true);
 
   return (
     <header>
@@ -20,8 +20,8 @@ const Navbar = () => {
         <div className="dropdown">
           <span
             className="link"
-            onMouseEnter={() => showDropdown(!dropdown)}
-            onMouseLeave={() => showDropdown(!dropdown)}
+            onClick={() => showDropdown(!dropdown)}
+            // onMouseClick={() => showDropdown(!dropdown)}
           >
             Hooks
           </span>

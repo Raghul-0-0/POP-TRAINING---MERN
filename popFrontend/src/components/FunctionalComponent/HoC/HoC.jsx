@@ -6,8 +6,8 @@ const HoC = () =>{
     return(
         <div>
             <h1>welcomme to Higher Order Components Hawk Tuah </h1>
-            {/* <Button value={"Login"} /> */}
-            <ButtonTrack value={"Login" } trackingInfo{{"CustID";"Hello";"Password";"Password"}}>
+            <Button value={"Login"} /> <br />
+            <ButtonTrack value={"Login" } trackingInfo={{"CustID":"Hello","Password":"Password"}} / >
         </div>
     )
 }

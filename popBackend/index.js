@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 
-app.post("/signup",(req,res)=>{
+app.post("/signup",async (req,res)=>{
   try{
     const hashedPassword = await bcrypt.hash(password,10);
     const{firstName,lastName,email,password,phoneNumber} = req.body;
